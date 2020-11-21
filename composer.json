@@ -1,5 +1,5 @@
 {
-    "name": "systemcode/brazilcustomerattributes",
+    "name": "feeh27/module-brazil-customer-attributes",
     "description":"Magento 2 module to adapt customer and address fields to brazil.",
     "keywords": [
         "magento 2",
@@ -15,7 +15,7 @@
     ],
     "require": {
         "systemcode/base": "*",
-        "magedev/brazilzipcode": "*"
+        "feeh27/module-brazil-zipcode": "feeh27-latest"
     },
     "type": "magento2-module",
     "version": "1.1.2",
