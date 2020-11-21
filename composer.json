@@ -13,16 +13,6 @@
         "magento2 pessoa jurídica",
         "magento2 tipo pessoa"
     ],
-    "require": {
-        "feeh27/module-brazil-zipcode": "develop",
-        "systemcode/base": "*"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/feeh27/BrazilZipCode"
-        }
-    ],
     "type": "magento2-module",
     "version": "1.1.2",
     "license": [
@@ -39,6 +29,16 @@
             "email": "contato@systemcode.com.br",
             "homepage": "https://www.systemcode.com.br/",
             "role": "CTO"
+        }
+    ],
+    "require": {
+        "feeh27/module-brazil-zipcode": "develop",
+        "systemcode/base": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/feeh27/BrazilZipCode"
         }
     ],
     "autoload": {
