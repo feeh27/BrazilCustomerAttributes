@@ -14,9 +14,15 @@
         "magento2 tipo pessoa"
     ],
     "require": {
-        "systemcode/base": "*",
-        "feeh27/module-brazil-zipcode": "feeh27-latest"
+        "feeh27/module-brazil-zipcode": "develop",
+        "systemcode/base": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/feeh27/BrazilZipCode"
+        }
+    ],
     "type": "magento2-module",
     "version": "1.1.2",
     "license": [
