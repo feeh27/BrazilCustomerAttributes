@@ -37,8 +37,17 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/feeh27/module-brazil-zipcode"
+            "type": "package",
+            "package": {
+                "name": "feeh27/module-brazil-zipcode",
+                "version": "1.1.4",
+                "type": "magento2-module",
+                "source": {
+                    "url": "https://github.com/feeh27/module-brazil-zipcode",
+                    "type": "git",
+                    "reference": "dev-master"
+                }
+            }
         }
     ],
     "autoload": {
