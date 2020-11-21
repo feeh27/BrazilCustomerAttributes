@@ -32,7 +32,7 @@
         }
     ],
     "require": {
-        "feeh27/module-brazil-zipcode": "develop",
+        "feeh27/module-brazil-zipcode": "dev-master",
         "systemcode/base": "*"
     },
     "repositories": [
